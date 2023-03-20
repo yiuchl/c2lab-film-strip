@@ -29,7 +29,7 @@ body {
   color: gold;
 }
 
-h1{
+h1 {
   font-size: 7em;
   font-family: 'GFS Didot', serif;
   padding: 0;
@@ -72,7 +72,7 @@ p {
   padding: 0;
 }
 
-.toptext{
+.toptext {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -92,6 +92,12 @@ p {
 .grid-item--image {
   position: relative;
   overflow: hidden;
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
 }
 
 .grid-item--image img {
@@ -136,9 +142,12 @@ marquee {
 }
 
 .prevent-select {
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
 }
 
 /* movement courtesy of e.w. */
