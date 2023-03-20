@@ -32,6 +32,8 @@ body {
 h1{
   font-size: 7em;
   font-family: 'GFS Didot', serif;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
@@ -39,6 +41,8 @@ h2 {
   font-weight: bold;
   letter-spacing: -2px;
   font-family: 'GFS Didot', serif;
+  padding: 0;
+  margin: 0;
 }
 
 .title {
@@ -129,6 +133,12 @@ marquee {
   grid-row-start: 2;
   grid-row-end: 3;
   padding: 2em;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 /* movement courtesy of e.w. */
