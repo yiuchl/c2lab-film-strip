@@ -183,7 +183,9 @@ p{
   }
 
 .toptext{
+  position: fixed;
   padding: 2%;
+  width: fit-content;
 }
 
   h1 {
