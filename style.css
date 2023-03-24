@@ -155,13 +155,13 @@ marquee {
 }
 
 @media only screen and (max-width: 690px) {
-body{
-  font-size: 1rem;
-}
+  body {
+    font-size: 1rem;
+  }
 
-p{
-  font-size: 1em;
-}
+  p {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -182,11 +182,11 @@ p{
     padding: 0;
   }
 
-.toptext{
-  position: fixed;
-  padding: 2%;
-  width: 100%;
-}
+  .toptext {
+    position: fixed;
+    padding: 2%;
+    width: 100%;
+  }
 
   h1 {
     font-size: 7em;
