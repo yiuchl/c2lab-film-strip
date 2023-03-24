@@ -182,9 +182,9 @@ p{
     padding: 0;
   }
 
-  .grid-header{
-    padding: 5%;
-  }
+.toptext{
+  width: auto;
+}
 
   h1 {
     font-size: 7em;
