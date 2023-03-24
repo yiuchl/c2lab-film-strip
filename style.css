@@ -185,7 +185,7 @@ p{
 .toptext{
   position: fixed;
   padding: 2%;
-  width: fit-content;
+  width: 100%;
 }
 
   h1 {
